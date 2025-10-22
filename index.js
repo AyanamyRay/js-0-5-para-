@@ -1,49 +1,17 @@
+// в js 8 типов данных 
 /*
-console.log("hello world");
-
-console.log("hello");
-
-// комент
-
- /*
- sfsdfsfsfsfsf
- sdfsfsf
- sdfsdffs
+1) number = console.log(1);
+2) string = console.log("text");
+3) boolean = console.log(true); // true / false
+4) undefined = console.log(undefined); 
+5) null = console.log(null); 
+6) bigint = console.log(100000000000000000000000n); // bigint > 2**53-1
+7) symbol = let symbol = symbol(); 
+8) 
+const obj = {
+name: "name",
+age: 20,
+users: ["1","2","3"],
+socialMedia: {}
+}
  */
-
- /*
- console.log("David");
- console.log("Dima");
- console.log("Nekit");
-*/
-
-/*
-console.log(4+4);
-console.log(5-4);
-console.log(5*6);
-console.log(10/2);
-
-console.log(5**2); //25 степень
-
-console.log(10%3); // 1 остаток от деления
-
-console.log(10%2) // 0
-*/
-/* 
-console.log(2 + 2 * 2); // 6
-console.log((2 + 2) * 2); // 8
-
-console.log(-5);
-*/
-console.log(3**5);
-console.log(-8 / -4);
-console.log(100%3);
-
-// console.log(3**5 + -8 / -4 + 100%3);
-
-let a = 3**5;
-let b = -8 / -4
-let c = 100%3
-
-console.log(a + b + c); 
-
